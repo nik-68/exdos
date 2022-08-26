@@ -19,8 +19,8 @@ os.system("clear")
 
 print("""\033[93m
               ANONYMOUS
-      ╭━━━╮     ╭╮ ╭━━━╮
-      ┃╭━━╯     ┃┃ ╰╮╭╮┃
+      ╭━━━╮      ╭╮ ╭━━━╮
+      ┃╭━━╯      ┃┃ ╰╮╭╮┃
       ┃╰━━┳╮╭┳━━┫┃╭╮┃┃┃┣━━┳━━╮
       ┃╭━━┫┃┃┃╭━┫╰╯╯┃┃┃┃╭╮┃━━┫
       ┃┃  ┃╰╯┃╰━┫╭╮┳╯╰╯┃╰╯┣━━┃v2.3
@@ -29,19 +29,19 @@ print("""\033[93m
 """)
 time.sleep(2)
 print()
-choice = str(input("\033[94m ╠═══[\033[93m МЕТОД [×] METHODS [UDP/TCP] \033[94m] •\n ╚════> \033[0m"))
+choice = str(input("\033[91m ╠═══[\033[93m МЕТОД [×] METHODS [UDP/TCP] \033[91m] •\n ╚════\033[92m> \033[0m"))
 time.sleep(1)
 
-ip = str(input("\033[94m ╠═══[\033[93m Ваша Цель IP \033[94m] •\n ╚════> \033[0m"))
+ip = str(input("\033[91m ╠═══[\033[93m Ваша Цель IP \033[91m] •\n ╚════\033[92m> \033[0m"))
 time.sleep(1)
 
-port = int(input("\033[94m ╠═══[\033[93m ПОРТ [×] PORT \033[94m] •\n ╚════> \033[0m"))
+port = int(input("\033[91m ╠═══[\033[93m ПОРТ [×] PORT \033[91m] •\n ╚════\033[92m> \033[0m"))
 time.sleep(1)
 
-times = int(input("\033[94m ╠═══[\033[93m ПАКЕТЫ/s [×] PACKETS \033[94m] •\n ╚════> \033[0m"))
+times = int(input("\033[91m ╠═══[\033[93m ПАКЕТЫ/s [×] PACKETS \033[91m] •\n ╚════\033[92m> \033[0m"))
 time.sleep(1)
 
-threads = int(input("\033[94m ╠═══[\033[93m ПОТОКИ [800] THREADS \033[94m] •\n ╚════> \033[0m"))
+threads = int(input("\033[91m ╠═══[\033[93m ПОТОКИ [800] THREADS \033[91m] •\n ╚════\033[92m"> \033[0m"))
 time.sleep(2)
 os.system('cls' if os.name=='nt' else 'clear')
 
