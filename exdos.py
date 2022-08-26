@@ -32,19 +32,19 @@ print()
 choice = str(input("\033[94m ╠═══[\033[93m МЕТОД [×] METHODS [UDP/TCP] \033[94m] •\n ╚════> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
-print(banner)
+
 ip = str(input("\033[94m ╠═══[\033[93m Ваша Цель IP \033[94m] •\n ╚════> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
-print(banner)
+
 port = int(input("\033[94m ╠═══[\033[93m ПОРТ [×] PORT \033[94m] •\n ╚════> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
-print(banner)
+
 times = int(input("\033[94m ╠═══[\033[93m ПАКЕТЫ/s [×] PACKETS \033[94m] •\n ╚════> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
-print(banner)
+
 threads = int(input("\033[94m ╠═══[\033[93m ПОТОКИ [800] THREADS \033[94m] •\n ╚════> \033[1m"))
 
 def run():
