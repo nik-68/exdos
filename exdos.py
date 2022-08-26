@@ -29,7 +29,7 @@ print("""\033[93m
 """)
 time.sleep(2)
 print()
-choice = str(input(\033[91m ╠═══['\033[94m МЕТОД [×] METHODS {UDP/TCP) ']•\n\033[91m ╚════\033[92m> \033[0m"))
+choice = str(input(\033[91m ╠═══['\033[94m МЕТОД [×] METHODS (UDP/TCP) ]•\n\033[91m ╚════\033[92m> \033[0m"))
 time.sleep(1)
 ip = str(input(\033[91m ╠═══['\033[94m Ваша Цель IP ]•\n\033[91m ╚════\033[92m> \033[0m"))
 time.sleep(1)
