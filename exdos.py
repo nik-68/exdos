@@ -64,7 +64,7 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" ΣX !!!")
+      print(i +"033[94m ΣX Dd0s!!!")
     except:
       s.close()
       print("\033[91m[*] Error")
